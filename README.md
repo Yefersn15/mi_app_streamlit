@@ -37,14 +37,14 @@ python -m venv .venv
 
 3. Activar el entorno virtual:
 
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
-
 Si PowerShell bloquea la ejecución del script, ejecuta esto una vez antes de activar:
 
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+```powershell
+.\.venv\Scripts\Activate.ps1
 ```
 
 4. Actualizar pip e instalar dependencias:
